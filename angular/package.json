@@ -1,6 +1,6 @@
 {
-  "name": "angular2-flash-messages",
-  "version": "3.0.1",
+  "name": "@flash-messages/angular",
+  "version": "4.0.0",
   "description": "Angular 2 flash messages module",
   "files": [
     "module/*.d.ts",
@@ -27,11 +27,11 @@
     "messages"
   ],
   "author": {
-    "name": "Paul Moff"
+    "name": "Mythology Labs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moff/angular2-flash-messages.git"
+    "url": "https://github.com/mythlabsuy/angular2-flash-messages.git"
   },
   "license": "MIT",
   "peerDependencies": {},

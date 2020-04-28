@@ -15,6 +15,7 @@
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
+    "test": "echo \"No test specified\"",
     "prepublish": "ngc -p ./tsconfig.publish.json"
   },
   "keywords": [

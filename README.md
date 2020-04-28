@@ -10,7 +10,7 @@ This is a simple module that provides component and service for showing flash me
 
 ## Installation
 
-- run `npm install angular2-flash-messages --save`
+- run `npm i flash-messages-angular`
 - import `FlashMessagesModule` in your app's main module `app.module.ts`, e.g.:
 
 ```
@@ -158,10 +158,6 @@ Notice! You have to add some CSS to see gray out in action, e.g.:
 }
 
 ```
-
-## Feedback
-
-Please [leave your feedback](https://github.com/moff/angular2-flash-messages/issues) if you have noticed any issues or have a feature request.
 
 ## License
 

@@ -1,6 +1,6 @@
 {
-  "name": "@flash-messages/angular",
-  "version": "3.0.1",
+  "name": "flash-messages-angular",
+  "version": "4.0.0",
   "description": "Angular 2 flash messages module",
   "files": [
     "module/*.d.ts",
@@ -16,7 +16,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "test": "echo \"No test specified\"",
-    "prepublish": "ngc -p ./tsconfig.publish.json"
+    "prepare": "ngc -p ./tsconfig.publish.json"
   },
   "keywords": [
     "angular2",
@@ -27,12 +27,10 @@
     "flash",
     "messages"
   ],
-  "author": {
-    "name": "Mythology Labs"
-  },
+  "author": "Mythology Labs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mythlabsuy/angular2-flash-messages.git"
+    "url": "git+https://github.com/mythlabsuy/angular2-flash-messages.git"
   },
   "license": "MIT",
   "peerDependencies": {},
@@ -55,5 +53,10 @@
     "systemjs": "0.19.47",
     "typescript": "^3.1.6",
     "zone.js": "^0.8.26"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mythlabsuy/angular2-flash-messages/issues"
+  },
+  "homepage": "https://github.com/mythlabsuy/angular2-flash-messages#readme",
+  "dependencies": {}
 }
